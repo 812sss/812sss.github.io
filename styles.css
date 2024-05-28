@@ -127,7 +127,7 @@ header {
 }
 
 .cta-link {
-  color: #66bbff;
+  color: #0f93ff;
   font-size: 2.1rem;
   display: inline-block;
 }
@@ -431,4 +431,8 @@ footer{
   .cta-link {
     font-size: 1.9rem;
   }
+}
+
+.disabled{
+  color: #555454
 }
