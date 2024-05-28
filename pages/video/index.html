@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/icons/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+    <title>预热短片</title>
+</head>
+
+<body>
+    <h1>预热短片</h1> <a href="/">返回</a>
+    <p>温馨提示：预热短片视频文件较大，加载缓慢</p>
+    <center>
+        <!-- <video id="my-player" class="video-js" controls preload="auto" style="width:90%;"> -->
+        <video style="width:90%;height:auto" controls>
+            <source src="./_video.mp4" type="video/mp4" />
+            您的浏览器不支持播放此视频。
+        </video>
+    </center>
+    <!-- <script>
+        var options = {};
+
+        var player = videojs('my-player', options, function onPlayerReady() {
+            this.play();
+        });
+    </script> -->
+</body>
+
+</html>
